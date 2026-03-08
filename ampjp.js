@@ -1,1 +1,0 @@
-function naik(){return Math.floor(9999*Math.random())+1e3}var jp=[1785612349,1691347153,1723455239],realjp=jp[Math.floor(Math.random()*jp.length)],divjp=document.querySelector(".jp");function animJp(){requestAnimationFrame(animJp),realjp+=naik(),divjp.innerHTML=realjp.toLocaleString("id-ID")}divjp.innerHTML=realjp.toLocaleString("id-ID"),animJp();
